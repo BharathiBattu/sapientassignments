@@ -1,0 +1,12 @@
+
+C:\Users\Bharathi\projects\sapientassignments\pjp2.0\week2\maven>cd C:\Users\Bharathi\.m2\repository
+
+C:\Users\Bharathi\.m2\repository>ls
+antlr                     ch                 commons-cli          commons-lang       jakarta  log4j   pl        xpp3
+aopalliance               classworlds        commons-codec        commons-logging    javax    logkit  sslext
+asm                       com                commons-collections  commons-validator  jdom     net     xml-apis
+avalon-framework          commons-beanutils  commons-digester     dom4j              jstl     org     xmlpull
+backport-util-concurrent  commons-chain      commons-io           io                 junit    oro     xmlunit
+
+C:\Users\Bharathi\.m2\repository>PAUSE
+Press any key to continue . . .
