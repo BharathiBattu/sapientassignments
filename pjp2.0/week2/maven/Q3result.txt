@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.bharathi.mavenas:week2maven >-------------------
+[INFO] Building week2maven 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ week2maven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Bharathi\projects\sapientassignments\pjp2.0\week2\maven\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ week2maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ week2maven ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Bharathi\projects\sapientassignments\pjp2.0\week2\maven\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ week2maven ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ week2maven ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ week2maven ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ week2maven ---
+[INFO] Installing C:\Users\Bharathi\projects\sapientassignments\pjp2.0\week2\maven\target\week2maven-1.0.jar to C:\Users\Bharathi\.m2\repository\com\bharathi\mavenas\week2maven\1.0\week2maven-1.0.jar
+[INFO] Installing C:\Users\Bharathi\projects\sapientassignments\pjp2.0\week2\maven\pom.xml to C:\Users\Bharathi\.m2\repository\com\bharathi\mavenas\week2maven\1.0\week2maven-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.376 s
+[INFO] Finished at: 2020-08-29T14:38:58+05:30
+[INFO] ------------------------------------------------------------------------
