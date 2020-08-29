@@ -1,0 +1,13 @@
+Each phase is a sequence of goals, and each goal is responsible for a specific task.
+We can list all goals bound to a specific phase and their plugins using the command:
+
+mvn help:describe -Dcmd=PHASENAME
+
+For example, to list all goals bound to the compile phase, we can run:
+
+mvn help:describe -Dcmd=compile
+
+A Maven plugin is a group of goals. However, these goals aren't necessarily all bound to the same phase.
+We can use the following command to list all goals in a specific plugin:
+
+mvn <PLUGIN>:help
