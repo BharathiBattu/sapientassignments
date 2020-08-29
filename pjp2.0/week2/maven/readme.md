@@ -1,3 +1,5 @@
+Leveraing Local Copy of maven within the project
+------------------------------------------------
 Maven local repository is located in the local computer system.it is created by maven when the user runs any maven command. 
 The default location is %USER_HOME%/.m2 directory. 
 When maven build is executed, Maven automatically downloads all the dependency jars into the local repository. 
@@ -18,7 +20,9 @@ Code:
 
 The default value or the path is: ${user.home}/.m2/repository.
 
+
 Advantages:
+-----------
 Reduced version conflict.
 Less manual intervention for the first time build process.
 Single central reference repository for all dependent software libraries rather than several independent local libraries.
