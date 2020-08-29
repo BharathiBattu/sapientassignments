@@ -1,4 +1,4 @@
-C:\Users\Bharathi\projects\week2>mvn help:describe -Dcmd=compile
+
 [INFO] Scanning for projects...
 [INFO]
 [INFO] ------------------< com.bharathi.mavenas:week2maven >-------------------
