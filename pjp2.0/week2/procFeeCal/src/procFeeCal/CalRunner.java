@@ -17,7 +17,7 @@ public class CalRunner {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		ArrayList<TranList> trlist = new ArrayList<TranList>();
-		String path = "C:\\Users\\Bharathi\\Desktop\\sapient\\PJP 2.0\\Sample_Data_Fee_Calculator.CSV";
+		String path = "Sample_Data_Fee_Calculator.csv";
 		String line = "";
 		int n = 0;
 		try {
@@ -35,7 +35,7 @@ public class CalRunner {
 				 * cal.set(Calendar.DAY_OF_MONTH, Integer.parseInt(da[1])); Date date =
 				 * cal.getTime();
 				 */
-				Date date = new Date(Integer.parseInt(da[2]), Integer.parseInt(da[0]), Integer.parseInt(da[1]));
+				Date date = new Date(Integer.parseInt(da[2]), Integer.parseInt(da[1]), Integer.parseInt(da[0]));
 				TranList tran = new TranList();
 				tran.setClientId(values[1]);
 				tran.setEx_TransactionId(values[0]);
@@ -97,7 +97,7 @@ public class CalRunner {
 		
 
 try {
-	File path2 = new File("C:\\Users\\Bharathi\\Desktop\\sapient\\PJP 2.0\\SummaryReport.csv");
+	File path2 = new File("SummaryReport.csv");
 			if (!path2.exists()) {
 				path2.createNewFile();
 
